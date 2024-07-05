@@ -1,0 +1,99 @@
+body {
+    font-family: 'Outfit', sans-serif;
+    font-size: 16px;
+    color: hsl(30, 10%, 34%);
+    background-color: hsl(30, 54%, 90%);
+    background-size: cover;
+    height: fit-content;
+    width: 650px;
+    padding: 50px;
+    margin: auto;
+}
+
+ul {
+    margin-left: 30px;
+}
+
+li::marker {
+    color: hsl(332, 51%, 32%);
+    font-weight: bold;
+}
+
+li {
+    position: relative;
+    padding-left: 18px;
+    margin: 10px;
+}
+
+
+main img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.titulo {
+    font-family: 'Young Serif';
+    color: black;
+    padding: 10px;
+}
+
+main {
+    background-color: white;
+    padding: 20px;
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+p {
+    max-width: fit-content;
+    padding: 12px;
+}
+
+hr {
+    margin: 20px;
+    opacity: 0.5;
+}
+
+
+.secao {
+    color: hsl(332, 51%, 32%);
+    font-family: 'Young Serif';
+}
+
+.tempo-preparo {
+    font-family: 'Outfit';
+}
+
+.caixa-tempo {
+    margin: 20px;
+    background-color: hsl(330, 100%, 98%, 0.9);
+    opacity: 0.7;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.tempo li {
+    color: black;
+}
+
+.grid-container {
+    display: grid;
+    padding: 10px;
+    grid-template-columns: 50% 50%;
+
+}
+
+.grid-item {
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    text-align: left;
+    font-weight: bold;
+}
+
+.numero {
+    color: hsl(332, 51%, 32%)
+}
